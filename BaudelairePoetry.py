@@ -45,7 +45,6 @@ for i in range(0, whole_length - seq_len):
 
 
 X_shaped = np.reshape(X, (len(X), seq_len, 1))
-#scaling
 X_shaped = X_shaped/float(len(chars))
 Y_target = np_utils.to_categorical(Y)
 

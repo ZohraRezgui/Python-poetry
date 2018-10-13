@@ -11,19 +11,19 @@ A three-layer LSTM character-mapped model with 700 units in each layer. The trai
 ([fleursdumal.txt](https://github.com/ZohraRezgui/Python-poetry/blob/master/fleursdumal.txt) ) 
 
 Here you'll find two samples of generated Baudelaire Poetry:
-([BaudelaireSample1.txt](https://github.com/ZohraRezgui/Python-poetry/blob/master/BaudelaireSample1.txt) ) 
-([BaudelaireSample2.txt](https://github.com/ZohraRezgui/Python-poetry/blob/master/BaudelaireSample2.txt) ) 
+* ([BaudelaireSample1.txt](https://github.com/ZohraRezgui/Python-poetry/blob/master/BaudelaireSample1.txt) ) 
+* ([BaudelaireSample2.txt](https://github.com/ZohraRezgui/Python-poetry/blob/master/BaudelaireSample2.txt) ) 
 
 These were obtained after 30 epochs of training, with a loss of 0.3182.
 
 
 ## Dependencies
 
-numpy
-pandas
-keras
-tensorflow
+* numpy 
+* pandas 
+* keras 
+* tensorflow 
 
 ## Resources
 
-[Keras LSTM Text Generation Example](https://github.com/keras-team/keras/blob/master/examples/lstm_text_generation.py)
+ * [Keras LSTM Text Generation Example](https://github.com/keras-team/keras/blob/master/examples/lstm_text_generation.py)

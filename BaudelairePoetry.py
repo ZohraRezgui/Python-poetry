@@ -3,7 +3,7 @@
 
 import numpy as np
 import pandas as pd
-import sys
+
 from keras.models import Sequential
 from keras.layers import Dense
 from keras.layers import Dropout
@@ -86,7 +86,7 @@ for i in range(800):
     x = x / float(len(chars))
     pred_index = np.argmax(model.predict(x, verbose=0))
     result = num_to_char[pred_index]
-    sys.stdout.write(result)
+    print(result)
     Poem = Poem + result
     string.append(pred_index)
     string = string[1:len(string)]

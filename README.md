@@ -23,6 +23,7 @@ These were obtained after 30 epochs of training, with a loss of 0.3182.
 * pandas 
 * keras 
 * tensorflow 
+* re
 
 ## Resources
 

@@ -17,6 +17,13 @@ Here you'll find two samples of generated Baudelaire Poetry:
 These were obtained after 30 epochs of training, with a loss of 0.3182.
 
 
+## Dependencies
+
+numpy
+pandas
+keras
+tensorflow
+
 ## Resources
 
 [Keras LSTM Text Generation Example](https://github.com/keras-team/keras/blob/master/examples/lstm_text_generation.py)

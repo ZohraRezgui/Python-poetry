@@ -2,6 +2,7 @@
 
 This repo is where I put my poetry generation experiments based on poems written by poets I admire :) . 
 
+
 ## Baudelaire Generation (french)
 
 [BaudelairePoetry.py](https://github.com/ZohraRezgui/Python-poetry/blob/master/BaudelairePoetry.py)
@@ -25,6 +26,8 @@ These were obtained after 30 epochs of training, with a loss of 0.3182.
 * tensorflow 
 * re
 
-## Resources
+## Resources/acknowledgements
+
+As the repo is merely for experimentation please refer to keras' text generation example below for further information:
 
  * [Keras LSTM Text Generation Example](https://github.com/keras-team/keras/blob/master/examples/lstm_text_generation.py)
